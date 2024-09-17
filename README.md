@@ -139,4 +139,5 @@ Cara Kerja:
 Saat objek ClockDisplay dibuat, ia akan memulai dengan nilai waktu default (00:00) atau waktu yang diatur oleh pengguna.
 Setiap kali metode detikWaktu() dipanggil, menit akan bertambah satu. Jika menit mencapai 60, menit akan kembali ke 0 dan jam akan bertambah satu.
 Waktu yang diperbarui akan disimpan sebagai string di stringTampilan dan bisa diakses menggunakan metode ambilWaktu().
+
 Secara keseluruhan, objek NumberDisplay digunakan untuk menangani penambahan jam dan menit, sementara ClockDisplay mengelola tampilan dan pembaruan waktu pada jam digital.
