@@ -1,4 +1,7 @@
 #   Tugas 4 PBO - Clock Display
+Berikut merupakan program digital untuk menampilkan waktu menggunakan konsep pemrograman berorientasi objek (OOP) di Java. Program ini menggunakan dua kelas utama, yaitu ClockDisplay dan NumberDisplay, untuk membentuk simulasi jam digital 24 jam dengan format "HH".
+
+Kelas ClockDisplay berfungsi sebagai pengelola utama yang menangani logika penambahan jam dan menit serta pembaruan tampilan waktu secara keseluruhan. Sedangkan, kelas NumberDisplay bertanggung jawab untuk menangani penghitungan nilai numerik (jam dan menit) dengan pembatasan nilai tertentu, seperti 24 untuk jam dan 60 untuk menit.
 
 ## NumberDisplay.java
 ```
